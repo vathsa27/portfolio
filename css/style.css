@@ -54,7 +54,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 3rem 9%;
+    padding: 2rem 6%;
     background: rgba(0, 0, 0, 0.7);
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5)); /* Corrected filter property */
     display: flex;
@@ -155,9 +155,9 @@ body {
 
 /* Section base styles for sticky footer */
 section {
-    flex-grow: 1; /* Allows sections to expand and push the footer down */
-    min-height: 100vh;
-    padding: 5rem 9% 5rem;
+    flex-grow: 1; 
+    min-height: 70vh;
+    padding: 4rem 9% ;
 }
 
 /* Home section styles */
@@ -611,6 +611,17 @@ span {
     display: inline-block;
 }
 
+.contact .heading{
+    margin: 3rem 0;
+}
+
+.complete-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact form {
     max-width: 70rem;
     margin: 0 auto;
@@ -738,7 +749,7 @@ span {
 /* ------------------ FOOTER SECTION ------------------ */
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
@@ -748,8 +759,7 @@ span {
     margin-bottom: -9.9rem;
 }
 
-.footer-text,
-.footer-iconTop {
+.footer-text {
     position: relative;
 }
 
